@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./../pagesCss/index.css">
+    <link rel="stylesheet" href="./../pagesCss/footer.css">
+    <link rel="stylesheet" href="/pagesCss/search.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+<header id="header">
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="./../pagesImg/onair-logo.svg" alt="img">
+                <nav>
+                    <ul class="nav">
+                        <li><a class="nav-a" href="">Movies</a></li>
+                        <li><a class="nav-a" href="">Series</a></li>
+                        <li><a class="nav-a" href="">Channels</a></li>
+                        <li><a class="nav-a" href="">Music</a>
+                            <ul>
+
+                                <a href=""> Classical</a>
+                                <hr>
+                                <a href=""> Education</a>
+                                <hr>
+                                <a href=""> Entertainment</a>
+                                <hr>
+                                <a href=""> Free-to-Air (Trial)</a>
+                                <hr>
+                                <a href=""> Fun</a>
+                                <hr>
+                                <a href=""> Gospel</a>
+                                <hr>
+                                <a href=""> Indian</a>
+                                <hr>
+                                <a href=""> Jazz</a>
+                                <hr>
+                                <a href=""> Kids</a>
+                                <hr>
+                                <a href=""> Live cams</a>
+                                <hr>
+                                <a href=""> Movies</a>
+                                <hr>
+
+                                <a href=""> Music</a>
+                                <hr>
+                                <a href=""> News</a>
+                                <hr>
+                                <a href=""> R&B</a>
+                                <hr>
+                                <a href=""> Religion</a>
+                                <hr>
+                                <a href=""> Rock</a>
+                                <hr>
+                                <a href="">Science</a>
+                                <hr>
+
+
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="btn">
+                <div class="search-box">
+                    <span>
+                        <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M21 21L16.514 16.506L21 21ZM19 10.5C19 12.7543 18.1045 14.9163 16.5104 16.5104C14.9163 18.1045 12.7543 19 10.5 19C8.24566 19 6.08365 18.1045 4.48959 16.5104C2.89553 14.9163 2 12.7543 2 10.5C2 8.24566 2.89553 6.08365 4.48959 4.48959C6.08365 2.89553 8.24566 2 10.5 2C12.7543 2 14.9163 2.89553 16.5104 4.48959C18.1045 6.08365 19 8.24566 19 10.5V10.5Z"
+                                stroke="white"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                            />
+                        </svg>
+                    </span>
+                    <input id="search" type="text" placeholder="Search" />
+                    <div class="search_result"></div>
+                </div>
+
+                <div class="sign_in">
+                    <button class="sign-in-button">
+                        <img src="./../pagesImg/carbon_user-avatar (1).svg" alt="">Profile
+                    </button>
+                    <div class="content">
+                        <a href="./../pages html/profile.html"> Profile</a>
+                        <hr>
+
+                        <a href="./../pages html/plans.html"> Plans</a>
+                        <hr>
+
+                        <a href="payments.html"> Payment History</a>
+                        <hr>
+
+                        <a href="./../pages html/movies.html"> Log out</a>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+</header>
+
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35" id="cloud">
+        <path d="M31.714,25.543c3.335-2.17,4.27-6.612,2.084-9.922c-1.247-1.884-3.31-3.077-5.575-3.223h-0.021
+  C27.148,6.68,21.624,2.89,15.862,3.931c-3.308,0.597-6.134,2.715-7.618,5.708c-4.763,0.2-8.46,4.194-8.257,8.919
+  c0.202,4.726,4.227,8.392,8.991,8.192h4.873h13.934C27.784,26.751,30.252,26.54,31.714,25.543z"/>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="lens">
+        <path d="M15.656,13.692l-3.257-3.229c2.087-3.079,1.261-7.252-1.845-9.321c-3.106-2.068-7.315-1.25-9.402,1.83
+  s-1.261,7.252,1.845,9.32c1.123,0.748,2.446,1.146,3.799,1.142c1.273-0.016,2.515-0.39,3.583-1.076l3.257,3.229
+  c0.531,0.541,1.404,0.553,1.95,0.025c0.009-0.008,0.018-0.017,0.026-0.025C16.112,15.059,16.131,14.242,15.656,13.692z M2.845,6.631
+  c0.023-2.188,1.832-3.942,4.039-3.918c2.206,0.024,3.976,1.816,3.951,4.004c-0.023,2.171-1.805,3.918-3.995,3.918
+  C4.622,10.623,2.833,8.831,2.845,6.631L2.845,6.631z"/>
+    </symbol>
+
+
+<section id="profile">
+    <div class="container">
+        <div class="profile">
+            <div class="profile-menu">
+                <img  class="profile-img" src="./../pagesImg/profile.png" alt="img">
+                <h5>myemailaddress@gmail.com</h5>
+                <img class="pen-img" src="./../pagesImg/pen.icon.svg" alt="img">
+                <h6>Your subscriptions <br>
+                    are valid until</h6>
+                <h1>25.12.2022</h1>
+                <div class="menu-nav">
+                     <a href="profile.html"><img src="./../pagesImg/carbon_user-avatar (1).svg" alt=""> Profile</a>
+                     <a href="plans.html"><img src="./../pagesImg/OnAir (Copy)/24/basic/icon.svg" alt=""> Plans</a>
+                     <a href="payments.html"><img src="./../pagesImg/OnAir (Copy) (2)/24/basic/icon.svg" alt=""> Payment </a>
+                     <a href="./../pages html/movies.html"><img src="./../pagesImg/OnAir/24/arrows/icon.svg" alt=""> Log out</a>
+
+                </div>
+            </div>
+        
+            <div class="profile-plans">
+
+                <h1 class="plans-h1"> <img src="./../pagesImg/OnAir (Copy)/24/basic/icon.svg" alt=""> Plans</h1>
+
+                    <div class="plans-group">
+                        <div class="plans-group_h2"><h2>Upgrade your service</h2></div>
+                        <div class="plans-ul">
+                            <li class="freemium  active"><a  href="">&bullet;  &emsp;    OnAir Freemium</a></li>
+                            <li class="freemium"><a  href="">&bullet;  &emsp;    OnAir Freemium 1</a></li>
+                            <li class="freemium"><a  href="">&bullet;  &emsp;    OnAir Freemium 2</a></li>
+                            <li class="freemium"><a  href="">&bullet;  &emsp;    OnAir Freemium 3</a></li>
+                        </div>
+                        <div class="plans-general">
+                            <div class="plans-general_block">
+
+                                    <img  class="bloc-logo" src="img/freemium.png" alt="">
+
+
+                                <h4>Watch  50 live TV channels</h4>
+                                <p>Stream live TV Amet minim mollit non deserunt<br> ullamco  est sit aliqua dolor do amet sint.</p>
+                               <div class="tv-group">
+                                <div class="tv">
+                                    <img src="./../pagesImg/image 13.png" >
+                                </div>
+                                   <div class="dollar">
+                                       <div><span>N</span> <h4>3,500</h4></div>
+                                       <button>Add to Cart</button>
+                                   </div>
+                            </div></div>
+                            <div  style="display: none" class="plans-general_block">
+
+                                <img  class="bloc-logo" src="img/freemium.png" alt="">
+
+
+                                <h4>Watch  100 live TV channels</h4>
+                                <p>Stream live TV Amet minim mollit non deserunt<br> ullamco  est sit aliqua dolor do amet sint.</p>
+                                <div class="tv-group">
+                                    <div class="tv">
+                                        <img src="img/tv.png" >
+                                    </div>
+                                    <div class="dollar">
+                                        <h4><span>N</span>6,500</h4>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div></div>
+                            <div  style="display: none" class="plans-general_block">
+
+                                <img  class="bloc-logo" src="img/freemium.png" alt="">
+
+
+                                <h4>Watch  150 live TV channels</h4>
+                                <p>Stream live TV Amet minim mollit non deserunt<br> ullamco  est sit aliqua dolor do amet sint.</p>
+                                <div class="tv-group">
+                                    <div class="tv">
+                                        <img src="img/tv.png" >
+                                    </div>
+                                    <div class="dollar">
+                                        <h4><span>N</span>8,500</h4>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div></div>
+                            <div  style="display: none" class="plans-general_block">
+
+                                <img  class="bloc-logo" src="img/freemium.png" alt="">
+
+
+                                <h4>Watch  200 live TV channels</h4>
+                                <p>Stream live TV Amet minim mollit non deserunt<br> ullamco  est sit aliqua dolor do amet sint.</p>
+                                <div class="tv-group">
+                                    <div class="tv">
+                                        <img src="img/tv.png" >
+                                    </div>
+                                    <div class="dollar">
+                                       <div><span>N</span> <h4>10,500</h4></div>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div></div>
+                            <div class="plans-general_blockTwo">
+                                <h1>Your service</h1>
+                                <h2>Your cart is empty</h2>
+                                <hr>
+                                <h3>Total:    00</h3>
+                                <hr>
+                                <h2>Payment with</h2>
+                                <button>Pay via <img src="./../pagesImg/paypal.png" alt=""></button>
+                                <button>Pay via <img src="./../pagesImg/payments.png" alt=""></button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-film">
+        <div class="container">
+            <div class="footer-informations">
+                <div class="f-info">
+                    <img src="./../pagesImg/all-white-onair-logo.svg" alt="" class="f-info-img">
+                    <p class="foterText">Hot Africa, we offer original, exclusive and premium stories. Everything
+                        you want to watch,
+                        anytime, anywhere and as much.</p>
+                    <div class="google">
+                        <a href=""><img src="./../pagesImg/appstore.png" alt=""></a>
+                        <a href=""><img src="./../pagesImg/googleplay.png" alt=""></a>
+                    </div>
+                    <div class="icons">
+                        <div class="circle">
+                            <a href="#"><ion-icon class="icon fb" name="logo-facebook"></ion-icon></a>
+                        </div>
+                        <div class="circle">
+                            <a href="#"><ion-icon class="icon ins" name="logo-instagram"></ion-icon></a>
+                        </div>
+                        <div class="circle">
+                            <a href="#"><ion-icon class="icon tw" name="logo-twitter"></ion-icon></a>
+                        </div>
+                        <div class="circle">
+                            <a href="#"><ion-icon class="icon yout" name="logo-youtube"></ion-icon></a>
+                        </div>
+                    </div>
+                    <div class="posle-icons">
+                        <a href="">Terms of use/</a>
+                        <a href="./eldar/about.html">About Us/</a>
+                        <a href="">Privacy Policy/</a>
+                        <a href="">SiteMap</a>
+                    </div>
+                    <p class="end-text">Copyright © 2022 Hot Africa. All rights reserved.</p>
+                </div>
+                <div class="footerInfo">
+                    <div class="f-info ">
+                        <div class="f-person">
+                            <img src="./../pagesImg/carbon_user-avatar (1).svg" alt="">
+                            <h4 class="footer-text">Sign in</h4>
+                        </div>
+                        <div class="nav-link">
+                            <a href="#">Personal data</a>
+                            <a href="#">Choosing a Plan</a>
+                            <a href="#">Payment</a>
+                        </div>
+                    </div>
+                    <div class="f-info">
+                        <h4 class="footer-text">Movies</h4>
+                        <div class="nav-link">
+                            <a href="#">Lock Upp </a>
+                            <a href="#">Pavitra Rishta</a>
+                            <a href="#">Girgit</a>
+                            <a href="#">Hai Taubba Season 3 </a>
+                            <a href="#">Cartel</a>
+                            <a href="#">Crimes And Confessions</a>
+                            <a href="#">Puncch Beat Season 2</a>
+                            <a href="#">Broken But Beautiful Season 3 </a>
+                        </div>
+                    </div>
+                    <div class="f-info">
+                        <h4 class="footer-text">Series</h4>
+                        <div class="nav-link">
+                            <a href="#">X.X.X. Season 2 </a>
+                            <a href="#">Gandii Baat Season 5 </a>
+                            <a href="#">Gandii Baat Season 6</a>
+                            <a href="#">Broken But Beautiful Season 1</a>
+                            <a href="#">Broken But Beautiful Season 2</a>
+                            <a href="#">Class Of 2020</a>
+                            <a href="#">Bekaaboo Season 1</a>
+                            <a href="#">Ragini MMS Returns Season 2</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script>
+
+</script>
+
+<script src="/pagesJs/plans.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+.container {
+    width: 1816px;
+    margin: 0 auto;
+
+
+}
+
+.footer-film {
+    background: #1a1a1a;
+    padding: 70px 0;
+    margin-bottom: 18px;
+    
+}
+
+.footer-informations {
+    display: flex;
+    justify-content: space-around;
+}
+
+.f-info {
+    /* img {
+        padding-top: 10px;
+    } */
+
+    .icons {
+        width: 280px;
+        display: flex;
+        gap: 40px;
+        padding: 32px 0 55px 0;
+    }
+
+    .circle {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid #363636;
+    }
+
+    .footer-text {
+        font-size: 24px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    .nav-link {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .nav-link a{
+        font-family: Ubuntu;
+        color: #797979;
+        text-decoration: none;
+        font-size: 18px;
+    
+    }
+}
+
+.footerInfo {
+    display: flex;
+    gap: 150px;
+}
+
+.footer-end {
+    .container {
+        max-width: 1270px;
+        height: auto;
+    }
+
+    .f-end-text {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 19px;
+
+        /* /* p {
+            color: #fff;
+            font-weight: 500;
+            font-size: 12px;
+        } */
+    } 
+}
+
+.posle-icons a {
+    color: #797979;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.f-person {
+    display: flex;
+    justify-content: space-around;
+
+    img {
+        padding-bottom: 14px;
+    }
+}
+
+.foterText {
+    color: #797979;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    width: 280px;
+    height: 88px;
+    margin-bottom: 32px;
+    font-size: 16px !important;
+}
+
+.f-info-img {
+    margin-bottom: 95px;
+}
+
+a {
+    font-family: Ubuntu;
+}
+
+.icon {
+    width: 22px;
+    height: 22px;
+    padding: 7px 0 0 7px;
+    color: #fff;
+}
+.fb:hover{
+    color: blue;
+}
+.ins:hover{
+    color: rgb(228, 32, 64);
+}
+.tw:hover{
+    color: rgb(111, 111, 248);
+}
+.yout:hover{
+    color: rgb(248, 9, 41);
+}
+
+.end-text {
+    color: #797979;
+    margin-top: 13px;
+    /* width: 350px;
+    height: 22px; */
+}
+.google{
+    width: 280px;
+    height: 37px;
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Playfair+Display:ital,wght@0,700;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1816px;
+  margin: auto;
+  height: 100%;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 22px;
+}
+/* hero slide css */
+
+.hero-slide {
+  background: url(./../pagesImg/fon\ first.png) no-repeat center/cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.movie-info {
+  width: 600px;
+  font-size: 35px;
+  color: #fff;
+  line-height: 45px;
+  margin-bottom: 60px;
+  font-weight: 300;
+}
+.movie-name {
+  margin-top: 70px;
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+.movie-info span {
+  font-weight: 700;
+}
+.m-play-btn {
+  align-items: center;
+  padding: 10px 34px;
+  background: #e13c52;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 60px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+.Dom {
+  padding: 200px 70px;
+}
+.lines .stick {
+  width: 46px;
+  height: 4px;
+  border-radius: 100px;
+  background: #d9d9d94d;
+  &.active {
+    background: #ffffff;
+  }
+}
+.lines {
+  display: flex;
+  gap: 14px;
+  padding: 30px;
+}
+.hoverFon {
+  margin: -50px 700px;
+  display: flex;
+  gap: 29px;
+  cursor: pointer;
+}
+.hoverFon img {
+  width: 70px;
+  height: 70px;
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: #00000090;
+  display: none;
+}
+/* hero slide css and */
+.registration .logo {
+  padding: 200px 0px;
+}
+
+.divReg {
+  margin: auto;
+  margin-top: 200px;
+  width: 577px;
+  height: 490px;
+  background: #00000099;
+  border-radius: 60px;
+  padding: 30px 30px;
+}
+.divReg input {
+  padding: 8px 13px;
+  color: #757575;
+  border-radius: 6px;
+  outline: none;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 426px;
+  height: 60px;
+  background: #313131e5;
+  border: none;
+  font-size: 19px;
+}
+.divReg input:hover {
+  border: 1px solid #aeb4dd;
+}
+.divReg2 input:hover {
+  border: 1px solid #aeb4dd;
+}
+.divReg input:first-child {
+  margin-top: 110px;
+  margin-bottom: 14px;
+}
+.divReg .sign-in {
+  background: #e13c52;
+  width: 142px;
+  height: 48px;
+  border-radius: 60px;
+  margin: 35px auto;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divReg .sign-in a{
+  color: #fff;
+  font-size: 25px;
+}
+.divReg .sign-in:hover {
+  transform: scale(1.1);
+}
+.divReg2 .sign-in:hover {
+  transform: scale(1.1);
+}
+.registration {
+  display: none;
+}
+.registration2 {
+  display: none;
+}
+.registration p {
+  color: #838199;
+}
+.registration .p2 {
+  margin-top: 400px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+}
+.divReg2 {
+  margin: auto;
+  margin-top: 100px;
+  width: 577px;
+  height: 750px;
+  color: #fff;
+  background: #313131e5;
+  border-radius: 60px;
+  padding: 0 80px;
+}
+.divReg2 input {
+  padding: 8px 13px;
+  background: #00000099;
+  color: #757575;
+  border-radius: 6px;
+  outline: none;
+  width: 426px;
+  height: 60px;
+  border: none;
+  font-size: 20px;
+}
+.divReg.sign-in  {
+  color: #fff;
+}
+.divReg2 input {
+  margin-bottom: 14px;
+}
+.divReg2 .p3 {
+  text-align: center;
+  padding-top: 61px;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 21px;
+}
+.chexdiv {
+  display: flex;
+  width: 500%;
+  font-size: 16px;
+  margin-left: -120px;
+  gap: 4px;
+  padding: 30px 89px;
+}
+  .chexdiv p{
+  /* font-size: 19px; */
+}
+.divReg2 input.chexbox {
+  width: 19px;
+  height: 19px;
+  border: 1px solid #6d6d6d;
+  /* display: inline-block; */
+}
+.divReg2 .sign-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2ms;
+  margin: 5px auto;
+  background: #e13c52;
+  width: 142px;
+  height: 48px;
+  border-radius: 60px;
+  margin-bottom: 35px;
+  border: none;
+  cursor: pointer;
+}
+.divReg2 .sign-in a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+.forgot {
+  margin-top: -25px;
+  float: right;
+}
+.forgot-text {
+  color: #fff;
+  text-align: center;
+}
+.p4 {
+  text-align: center;
+  padding: 150px 100px;
+  color: #fff !important;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.return {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  inset: 0;
+  width: 100%; 
+  height: 100%; 
+  background-color: rgba(0, 0, 0, 0.6); 
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 45px;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close2 {
+  color: #aaa;
+  float: right;
+  font-size: 45px;
+}
+
+.close2:hover,
+.close2:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+.textREG{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.textREG2{
+  text-decoration: underline;
+  cursor: pointer;
+}
